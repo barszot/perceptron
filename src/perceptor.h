@@ -21,7 +21,9 @@ class Perceptor
         const std::vector<double>& get_weights() const;
         void train(std::vector<data_row>dataset, int iterations, bool print_progress=false);
         int error(std::vector<data_row>dataset) const;
-        void print_weights() const;        
+        void print_weights() const;
+        
+     
 };
 
 #endif
